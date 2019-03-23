@@ -1,7 +1,7 @@
-# ckeditor5-build-inline
+# @akilli/ckeditor5-build-inline
 
-Custom CKEditor 5 inline build.
+Custom CKEditor 5 inline build
 
-## Example
+## Demo
 
-You can see this build in action @ https://akilli.github.io/rte/ck5-inline/
+https://akilli.github.io/rte/ck5/build-inline.html
