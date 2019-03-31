@@ -1,6 +1,6 @@
 {
   "name": "@akilli/ckeditor5-build-inline",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Custom CKEditor 5 inline build",
   "keywords": [
     "ckeditor",
@@ -18,7 +18,8 @@
   "bugs": "https://github.com/akilli/ck5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akilli/ck5.git"
+    "url": "https://github.com/akilli/ck5.git",
+    "directory": "build-inline"
   },
   "main": "./dist/ckeditor.js",
   "files": [
@@ -26,7 +27,7 @@
   ],
   "devDependencies": {
     "@ckeditor/ckeditor5-editor-inline": "^12.0.0",
-    "@akilli/ckeditor5-media": "^2.0.0",
+    "@akilli/ckeditor5-media": "^2.0.1",
     "@ckeditor/ckeditor5-autoformat": "^11.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^11.0.0",
     "@ckeditor/ckeditor5-block-quote": "^11.0.0",
