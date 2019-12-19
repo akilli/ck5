@@ -1,7 +1,7 @@
 'use strict';
 
 const CKEditorWebpackPlugin = require('@ckeditor/ckeditor5-dev-webpack-plugin');
-const UglifyJsWebpackPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const path = require('path');
 const {styles} = require('@ckeditor/ckeditor5-dev-utils');
 
@@ -18,13 +18,15 @@ module.exports = {
     },
     optimization: {
         minimizer: [
-            new UglifyJsWebpackPlugin({
+            new TerserPlugin({
                 sourceMap: true,
-                uglifyOptions: {
+                terserOptions: {
                     output: {
+                        // Preserve CKEditor 5 license comments.
                         comments: /^!/
                     }
-                }
+                },
+                extractComments: false
             })
         ]
     },
