@@ -24,6 +24,9 @@
   "files": [
     "dist"
   ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "devDependencies": {
     "@akilli/ckeditor5-media": "^3.0.1",
     "@ckeditor/ckeditor5-autoformat": "^16.0.0",
@@ -45,8 +48,5 @@
     "terser-webpack-plugin": "^2.2.1",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
-  },
-  "scripts": {
-    "build": "webpack --mode production"
   }
 }
