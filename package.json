@@ -1,6 +1,6 @@
 {
   "name": "@akilli/ckeditor5-build-inline",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Custom CKEditor 5 inline build",
   "keywords": [
     "ckeditor",
@@ -28,7 +28,7 @@
     "build": "webpack --mode production"
   },
   "devDependencies": {
-    "@akilli/ckeditor5-media": "^3.0.1",
+    "@akilli/ckeditor5-media": "^3.0.2",
     "@ckeditor/ckeditor5-autoformat": "^16.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^16.0.0",
     "@ckeditor/ckeditor5-block-quote": "^16.0.0",
