@@ -24,10 +24,3 @@ and that your media browser notifies the editor by posting a message p.e. like
         alt: 'Optional alternative text',
         src: '/url/to/media'
     }, origin);
-
-## Demo
-
-- [Balloon Editor](https://akilli.github.io/ckeditor5-build-balloon/demo)
-- [Classic Editor](https://akilli.github.io/ckeditor5-build-classic/demo)
-- [Inline Editor](https://akilli.github.io/ckeditor5-build-inline/demo)
-- [Minimalistic Browser](https://github.com/akilli/demo-browser)
