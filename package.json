@@ -1,0 +1,52 @@
+{
+  "name": "@akilli/ckeditor5-build-inline",
+  "version": "3.0.3",
+  "description": "Custom CKEditor 5 inline build",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-build",
+    "editor",
+    "rich-text",
+    "richtext",
+    "wysiwyg",
+    "wysiwym"
+  ],
+  "author": "Ayhan Akilli",
+  "license": "GPL-2.0-or-later",
+  "bugs": "https://github.com/akilli/ckeditor5-build-inline/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akilli/ckeditor5-build-inline.git"
+  },
+  "main": "./dist/ckeditor.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@akilli/ckeditor5-media": "^3.0.4",
+    "@ckeditor/ckeditor5-autoformat": "^16.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^16.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^16.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^12.0.5",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^8.0.5",
+    "@ckeditor/ckeditor5-editor-inline": "^16.0.0",
+    "@ckeditor/ckeditor5-essentials": "^16.0.0",
+    "@ckeditor/ckeditor5-heading": "^16.0.0",
+    "@ckeditor/ckeditor5-link": "^16.0.0",
+    "@ckeditor/ckeditor5-list": "^16.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^16.0.0",
+    "@ckeditor/ckeditor5-table": "^16.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^16.0.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^3.1.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
