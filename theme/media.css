@@ -1,0 +1,17 @@
+.ck-content figure.audio,
+.ck-content figure.iframe,
+.ck-content figure.image,
+.ck-content figure.video {
+    clear: both;
+    text-align: center;
+}
+
+.ck-content figure.audio audio,
+.ck-content figure.iframe iframe,
+.ck-content figure.image img,
+.ck-content figure.video video {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+}

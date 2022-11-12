@@ -1,0 +1,19 @@
+.ck-content figure.audio.left,
+.ck-content figure.iframe.left,
+.ck-content figure.image.left,
+.ck-content figure.video.left {
+    max-width: 50%;
+    float: left;
+    margin-right: 1.5rem;
+    text-align: left;
+}
+
+.ck-content figure.audio.right,
+.ck-content figure.iframe.right,
+.ck-content figure.image.right,
+.ck-content figure.video.right {
+    max-width: 50%;
+    float: right;
+    margin-left: 1.5rem;
+    text-align: left;
+}

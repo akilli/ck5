@@ -1,0 +1,10 @@
+{
+  "Media Widget": "Label for the media widget.",
+  "Full size media": "Label for the Full size media option.",
+  "Left aligned media": "Label for the Left aligned media option",
+  "Right aligned media": "Label for the Right aligned media option",
+  "Change media text alternative": "Label for the Change media text alternative button.",
+  "Text alternative": "Label for the media text alternative input.",
+  "Enter media caption": "Placeholder text for media caption displayed when caption is empty.",
+  "Insert media": "Label for the insert media toolbar button."
+}
